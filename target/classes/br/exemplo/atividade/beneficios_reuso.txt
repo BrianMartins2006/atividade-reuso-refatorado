@@ -1,0 +1,4 @@
+Benefícios do reuso:
+O reuso por meio de frameworks e bibliotecas aumenta a produtividade ao evitar código duplicado, 
+melhora a qualidade e segurança ao usar implementações consolidadas (como BCrypt e validação de e-mails), 
+e garante consistência e facilidade de manutenção centralizando regras de autenticação em um único componente reutilizável.

@@ -1,8 +1,10 @@
-package main.java.br.exemplo.atividade;
+package br.exemplo.atividade;
 
 public class App {
     public static void main(String[] args) {
-        CadastroService service = new CadastroService();
+        AuthService auth = new AuthService();
+        CadastroService service = new CadastroService(auth);
+
         System.out.println(">>> Tentando cadastrar com email inválido:");
         service.cadastrar("invalido@", "123");
 
